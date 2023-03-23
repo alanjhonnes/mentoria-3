@@ -1,0 +1,25 @@
+:host {
+    display: grid;
+    grid-template-areas: 
+    "sidebar header header"
+    "sidebar main main"
+
+    
+    ;
+    grid-template-columns: auto 1fr;
+}
+
+.header {
+    grid-area: header;
+    background-color: blue;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: red;
+}
+
+.main {
+    grid-area: main;
+    background-color: green;
+}
